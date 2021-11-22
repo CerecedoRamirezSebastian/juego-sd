@@ -1,0 +1,44 @@
+<main role="main" class="container">
+
+    <div class="row-12 text-center">
+        <div id="waiting">Esperando a un oponente...</div>
+        <div id="msg" hidden>BASTA!</div>
+        <h4 id="seg" hidden></h4>
+    </div>
+
+    <div class="row-12">
+      <h4 id="player" class="text-center"></h4>
+    </div>
+    
+    <div class="form-label-group" style="width: 50%; margin: auto; margin-top: 1%; text-align: center;">
+        <input type="text" name="name" id="name" class="form-control" placeholder="Nombre">
+        <label for="name">Nombre</label>
+    </div>
+
+    <div class="form-label-group" style="width: 50%; margin: auto; margin-top: 1%; text-align: center;">
+        <input type="text" name="color" id="color" class="form-control" placeholder="Color">
+        <label for="fruit">Color</label>
+    </div>
+
+    <div class="form-label-group" style="width: 50%; margin: auto; margin-top: 1%; text-align: center;">
+        <input type="text" name="fruit" id="fruit" class="form-control" placeholder="Fruto">
+        <label for="fruit"  style="text-align: center;">Fruto</label>
+    </div>
+
+    <div class="row">
+        <input hidden style="margin: auto; margin-top: 1%;" type="button" id="btn" value="Enviar palabras" class = "btn btn-success" onclick="bastaSent()">
+    </div>
+</main>
+
+<style>
+    #waiting {
+        font-size: 3rem;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+    #msg{
+        font-size: 3rem;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+</style>
